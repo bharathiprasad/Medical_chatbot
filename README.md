@@ -40,13 +40,13 @@ The Medical Chatbot is designed to respond to user queries related to medical in
 ## Installation
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bharathiprasad/Medical_chatbot.git
    cd <repository-directory>
    ```
 
 2. **Install dependencies**:
    ```bash
-   pip install nltk keras tensorflow numpy
+   pip3 install nltk keras tensorflow numpy
    ```
 
 3. **Download NLTK data**:
