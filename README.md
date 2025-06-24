@@ -41,7 +41,7 @@ The Medical Chatbot is designed to respond to user queries related to medical in
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/bharathiprasad/Medical_chatbot.git
-   cd <repository-directory>
+   cd Medical_chatbot
    ```
 
 2. **Install dependencies**:
