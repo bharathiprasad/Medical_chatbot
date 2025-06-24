@@ -1,0 +1,133 @@
+{"intents": [
+	{"tag": "empty",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you"],
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Hii","hiii"],
+         "responses": ["Hello,how are you feeling?", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+	{"tag":"fever",
+	 "patterns":["Raise in body temperature" , "Increase in body temperature", "Feeling weak" ,"shivering" , "aching muscles and joints", "intermittent sweats", "excessive sweating", "temperature", "99degrees", "fahrenheit", "98degrees" ,"100degrees" ,"36degrees" ,"37degrees" ,"99degrees" ],
+	 "responses":["This is  symptom of fever"],
+	 "context":[""]
+	},
+	{"tag":"Skin allergy",
+	 "patterns":["i am having serious itching on skin","continuous itching","i am having severe itching on skin"],
+	 "responses":["this is symptom of skin allergy"],
+	 "context":[""]
+	},
+	{"tag": "Tired",
+         "patterns": ["I am feeling dizzy"," i am stressed"," i am feeling stressed","muscle weakness"],
+         "responses": ["This might be because you are tired, you should take some rest"],
+         "context": [""]
+        },
+	{"tag": "cough",
+         "patterns": ["I have a cough","My chest is aching"," My throat is itching","i am suffering with cough","a rapid expulsion of air from the lungs","Frequent throat clearing","sore throat"],
+         "responses": ["This is symptom of cough"],
+         "context": [""]
+        },
+	{"tag": "cold",
+         "patterns": ["I have a cold","My nose is blocked"," runny nose", "sneezing,"],
+         "responses": ["This is symptom of cold"],
+         "context": [""]
+        },
+	{"tag": "diarrhoea",
+         "patterns": ["loose watery stool","loose poo","abdominal pain","vomiting"],
+         "responses": ["This is symptom of diarrhoea"],
+         "context": [""]
+        },
+	{"tag": "dehydration",
+         "patterns": ["i am feeling dry mouth","my mouth is getting dry","I am feeling thirsty and light headed","i am passing darkcoloured urine"],
+         "responses": ["This is  symptom of dehydration"],
+         "context": [""]
+        },
+	{"tag": "headache",
+         "patterns": ["different types of headaches","types of headaches"],
+         "responses": ["1. Migraine headache - intense throbbing pain on just one side of the head. 2. Cluster headaches - severe and recurrent headaches 3. Tension Headache - Ocassional"],
+         "context": [""]
+        },
+	{"tag": "doctor",
+         "patterns": ["even after taking medication there is no change","even after taking medication i am not feeling good","even after taking tablet there is no change"],
+         "responses": ["You must consult a doctor"],
+         "context": [""]
+        },
+	{"tag": "symptoms",
+         "patterns": ["I am not feeling good"],
+         "responses": ["May i know the reason"],
+         "context": [""]
+        },
+	{"tag": "general",
+         "patterns": ["who are you?","what you can do?"],
+         "responses": ["i am medical assistant chatbot"," i will provide medical assistance"],
+         "context": [""]
+        },
+	{"tag": "medication for fever",
+         "patterns": ["fever" ],
+         "responses": ["You should take crocin tablet","You should take Paracetamol"],
+         "context": [""]
+        },
+	{"tag": "medication for cough",
+         "patterns": ["cough"],
+         "responses": ["You need to take a spoon full of benadryl after your meal"],
+         "context": [""]
+        },
+	{"tag": "medication for cold",
+         "patterns": [" cold"],
+         "responses": ["You should take a sudafed tablet"],
+         "context": [""]
+        },
+	{"tag": "medication for dehydration",
+         "patterns": ["dehydration"],
+         "responses": ["You need to drink plenty of fluids such as water, diluted squash or fruit juices"],
+         "context": [""]
+        },
+	{"tag": "medication for diarrhoea",
+         "patterns": ["diarrhoea"],
+         "responses": ["You should take Loperamide","You should take racecadotrill medicine"],
+         "context": [""]
+        },
+	{"tag": "medication for diabetes",
+         "patterns": ["diabetes"	],
+         "responses": ["consult doctor"],
+         "context": [""]
+        },
+	{"tag": "medication for stress",
+         "patterns": ["I am feeling tired"],
+         "responses": ["Please take some rest,so that you will fell better","This is common thing,take some rest,so that you will fell better "],
+         "context": [""]
+        },
+	{"tag": "",
+         "patterns": [" stress"],
+         "responses": ["To avoid stress do meditation daily morning"],
+         "context": [""]
+        },
+	{"tag": "",
+         "patterns": ["i am feeling good","i am feeling great"],
+         "responses": ["Good to know"],
+         "context": [""]
+        },
+	{"tag": "medication for skin allergy",
+         "patterns": ["skin allergy","i am having skin allergy"],
+         "responses": ["Take a bath and apply Caladryl skin soothing solution"],
+         "context": [""]
+        },
+	{"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        }
+]
+}
